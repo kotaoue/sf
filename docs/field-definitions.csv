@@ -7485,62 +7485,6 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,CartItem.UnitPriceAfterAdjustments,UnitPriceAfterAdjustments,CartItem,,UnitPriceAfterAdjustments,調整後の単価,調整後の単価,通貨(16、2),false,true,false,true,false,true
 000000000000000AAA,CartItem.UserRecordAccess,UserRecordAccessId,CartItem,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true
 000000000000000AAA,CartItem.WeightUnit,WeightUnit,CartItem,,WeightUnit,重量単位,重量単位,選択リスト,false,true,false,true,true,true
-000000000000000AAA,CartItemChangeEvent.AdjustmentAmount,AdjustmentAmount,CartItemChangeEvent,,AdjustmentAmount,調整金額数量ベース,調整金額数量ベース,通貨(16、2),false,true,false,false,false,false
-000000000000000AAA,CartItemChangeEvent.AdjustmentTaxAmount,AdjustmentTaxAmount,CartItemChangeEvent,,AdjustmentTaxAmount,調整税額,調整税額,通貨(16、2),false,true,false,false,false,false
-000000000000000AAA,CartItemChangeEvent.BillingFrequency,BillingFrequency,CartItemChangeEvent,,BillingFrequency,請求サイクル,請求サイクル,選択リスト,false,true,false,false,false,false
-000000000000000AAA,CartItemChangeEvent.Cart,CartId,CartItemChangeEvent,,Cart,カート,カート,参照関係(カート),false,true,false,false,false,false
-000000000000000AAA,CartItemChangeEvent.CartDeliveryGroup,CartDeliveryGroupId,CartItemChangeEvent,,CartDeliveryGroup,カート配送グループ,カート配送グループ,参照関係(カート配送グループ),false,true,false,false,false,false
-000000000000000AAA,CartItemChangeEvent.ChangeEventHeader,ChangeEventHeader,CartItemChangeEvent,,ChangeEventHeader,変更イベントヘッダー,変更イベントヘッダー,複合値,false,false,false,false,false,false
-000000000000000AAA,CartItemChangeEvent.ChildProductCount,ChildProductCount,CartItemChangeEvent,,ChildProductCount,子商品数,子商品数,数値(9、0),false,true,false,false,false,false
-000000000000000AAA,CartItemChangeEvent.CreatedBy,CreatedById,CartItemChangeEvent,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,true,false,false,false,false
-000000000000000AAA,CartItemChangeEvent.CreatedDate,CreatedDate,CartItemChangeEvent,,CreatedDate,作成日,作成日,日付/時間,false,true,false,false,false,false
-000000000000000AAA,CartItemChangeEvent.DistributedAdjustmentAmount,DistributedAdjustmentAmount,CartItemChangeEvent,,DistributedAdjustmentAmount,分配プロモーション合計,分配プロモーション合計,通貨(16、2),false,true,false,false,false,false
-000000000000000AAA,CartItemChangeEvent.DistributedAdjustmentTaxAmount,DistributedAdjustmentTaxAmount,CartItemChangeEvent,,DistributedAdjustmentTaxAmount,分配プロモーション税額調整,分配プロモーション税額調整,通貨(16、2),false,true,false,false,false,false
-000000000000000AAA,CartItemChangeEvent.FirstPymtPriceAfterAdjustments,FirstPymtPriceAfterAdjustments,CartItemChangeEvent,,FirstPymtPriceAfterAdjustments,調整後の初回支払価格,調整後の初回支払価格,通貨(16、2),false,true,false,false,false,false
-000000000000000AAA,CartItemChangeEvent.FirstPymtTax,FirstPymtTax,CartItemChangeEvent,,FirstPymtTax,初回支払税額,初回支払税額,通貨(16、2),false,true,false,false,false,false
-000000000000000AAA,CartItemChangeEvent.GrossUnitPrice,GrossUnitPrice,CartItemChangeEvent,,GrossUnitPrice,総単価,総単価,通貨(16、2),false,true,false,false,false,false
-000000000000000AAA,CartItemChangeEvent.IsShippingChargeNotApplicable,IsShippingChargeNotApplicable,CartItemChangeEvent,,IsShippingChargeNotApplicable,配送料適用外,配送料適用外,チェックボックス,false,false,false,false,false,false
-000000000000000AAA,CartItemChangeEvent.ItemizedAdjustmentAmount,ItemizedAdjustmentAmount,CartItemChangeEvent,,ItemizedAdjustmentAmount,品目プロモーション合計,品目プロモーション合計,通貨(16、2),false,true,false,false,false,false
-000000000000000AAA,CartItemChangeEvent.ItemizedAdjustmentTaxAmount,ItemizedAdjustmentTaxAmount,CartItemChangeEvent,,ItemizedAdjustmentTaxAmount,品目プロモーション税額調整,品目プロモーション税額調整,通貨(16、2),false,true,false,false,false,false
-000000000000000AAA,CartItemChangeEvent.LastModifiedBy,LastModifiedById,CartItemChangeEvent,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,true,false,false,false,false
-000000000000000AAA,CartItemChangeEvent.LastModifiedDate,LastModifiedDate,CartItemChangeEvent,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,true,false,false,false,false
-000000000000000AAA,CartItemChangeEvent.ListPrice,ListPrice,CartItemChangeEvent,,ListPrice,リスト価格,リスト価格,通貨(16、2),false,true,false,false,false,false
-000000000000000AAA,CartItemChangeEvent.Name,Name,CartItemChangeEvent,,Name,カート品目名,カート品目名,テキスト(255),false,true,false,false,false,false
-000000000000000AAA,CartItemChangeEvent.NetUnitPrice,NetUnitPrice,CartItemChangeEvent,,NetUnitPrice,正味単価,正味単価,通貨(16、2),false,true,false,false,false,false
-000000000000000AAA,CartItemChangeEvent.NetUnitPriceAfterAdjustments,NetUnitPriceAfterAdjustments,CartItemChangeEvent,,NetUnitPriceAfterAdjustments,調整後の正味単価,調整後の正味単価,通貨(16、2),false,true,false,false,false,false
-000000000000000AAA,CartItemChangeEvent.ParentCartItem,ParentCartItemId,CartItemChangeEvent,,ParentCartItem,親カート品目,親カート品目,参照関係(カート項目),false,true,false,false,false,false
-000000000000000AAA,CartItemChangeEvent.PerUnitWeight,PerUnitWeight,CartItemChangeEvent,,PerUnitWeight,1 つのカート品目の重量,1 つのカート品目の重量,数値(16、2),false,true,false,false,false,false
-000000000000000AAA,CartItemChangeEvent.PricingTermCount,PricingTermCount,CartItemChangeEvent,,PricingTermCount,価格設定条件の数,価格設定条件の数,数値(18、0),false,true,false,false,false,false
-000000000000000AAA,CartItemChangeEvent.Product2,Product2Id,CartItemChangeEvent,,Product2,商品,商品,参照関係(商品),false,true,false,false,false,false
-000000000000000AAA,CartItemChangeEvent.ProductClass,ProductClass,CartItemChangeEvent,,ProductClass,商品クラス,商品クラス,選択リスト,false,true,false,false,false,false
-000000000000000AAA,CartItemChangeEvent.ProductValidationKey,ProductValidationKey,CartItemChangeEvent,,ProductValidationKey,商品入力規則キーハッシュ,商品入力規則キーハッシュ,テキスト(255),false,true,false,false,false,false
-000000000000000AAA,CartItemChangeEvent.Quantity,Quantity,CartItemChangeEvent,,Quantity,数量,数量,数値(18、0),false,true,false,false,false,false
-000000000000000AAA,CartItemChangeEvent.SalesPrice,SalesPrice,CartItemChangeEvent,,SalesPrice,販売価格,販売価格,通貨(16、2),false,true,false,false,false,false
-000000000000000AAA,CartItemChangeEvent.SellingModelType,SellingModelType,CartItemChangeEvent,,SellingModelType,販売モデル種別,販売モデル種別,選択リスト,false,true,false,false,false,false
-000000000000000AAA,CartItemChangeEvent.Sku,Sku,CartItemChangeEvent,,Sku,SKU,SKU,テキスト(255),false,true,false,false,false,false
-000000000000000AAA,CartItemChangeEvent.StockCheckMethod,StockCheckMethod,CartItemChangeEvent,,StockCheckMethod,在庫確認方法,在庫確認方法,選択リスト,false,true,false,false,false,false
-000000000000000AAA,CartItemChangeEvent.SubscriptionTerm,SubscriptionTerm,CartItemChangeEvent,,SubscriptionTerm,サブスクリプション期間,サブスクリプション期間,数値(9、0),false,true,false,false,false,false
-000000000000000AAA,CartItemChangeEvent.SubType,SubType,CartItemChangeEvent,,SubType,サブ種別,サブ種別,選択リスト,false,true,false,false,false,false
-000000000000000AAA,CartItemChangeEvent.TotalAdjustmentAmount,TotalAdjustmentAmount,CartItemChangeEvent,,TotalAdjustmentAmount,すべての調整合計,すべての調整合計,通貨(16、2),false,true,false,false,false,false
-000000000000000AAA,CartItemChangeEvent.TotalFirstPymtAdjAmount,TotalFirstPymtAdjAmount,CartItemChangeEvent,,TotalFirstPymtAdjAmount,初回支払調整金額合計,初回支払調整金額合計,通貨(16、2),false,true,false,false,false,false
-000000000000000AAA,CartItemChangeEvent.TotalFirstPymtListPrice,TotalFirstPymtListPrice,CartItemChangeEvent,,TotalFirstPymtListPrice,初回支払リスト価格合計,初回支払リスト価格合計,通貨(16、2),false,true,false,false,false,false
-000000000000000AAA,CartItemChangeEvent.TotalFirstPymtPrice,TotalFirstPymtPrice,CartItemChangeEvent,,TotalFirstPymtPrice,調整と税金を含まない初回支払の総額,調整と税金を含まない初回支払の総額,通貨(16、2),false,true,false,false,false,false
-000000000000000AAA,CartItemChangeEvent.TotalLineAmount,TotalLineAmount,CartItemChangeEvent,,TotalLineAmount,品目金額合計,品目金額合計,通貨(16、2),false,true,false,false,false,false
-000000000000000AAA,CartItemChangeEvent.TotalLineFirstPymtAmount,TotalLineFirstPymtAmount,CartItemChangeEvent,,TotalLineFirstPymtAmount,品目の初回支払の総額,品目の初回支払の総額,通貨(16、2),false,true,false,false,false,false
-000000000000000AAA,CartItemChangeEvent.TotalLineFirstPymtTaxAmount,TotalLineFirstPymtTaxAmount,CartItemChangeEvent,,TotalLineFirstPymtTaxAmount,品目初回支払税額合計,品目初回支払税額合計,通貨(16、2),false,true,false,false,false,false
-000000000000000AAA,CartItemChangeEvent.TotalLineTaxAmount,TotalLineTaxAmount,CartItemChangeEvent,,TotalLineTaxAmount,品目税額合計,品目税額合計,通貨(16、2),false,true,false,false,false,false
-000000000000000AAA,CartItemChangeEvent.TotalListPrice,TotalListPrice,CartItemChangeEvent,,TotalListPrice,合計リスト価格,合計リスト価格,通貨(16、2),false,true,false,false,false,false
-000000000000000AAA,CartItemChangeEvent.TotalPrice,TotalPrice,CartItemChangeEvent,,TotalPrice,合計金額,合計金額,通貨(16、2),false,true,false,false,false,false
-000000000000000AAA,CartItemChangeEvent.TotalPriceAfterAllAdjustments,TotalPriceAfterAllAdjustments,CartItemChangeEvent,,TotalPriceAfterAllAdjustments,調整後金額合計,調整後金額合計,通貨(16、2),false,true,false,false,false,false
-000000000000000AAA,CartItemChangeEvent.TotalPromoAdjustmentAmount,TotalPromoAdjustmentAmount,CartItemChangeEvent,,TotalPromoAdjustmentAmount,品目プロモーションおよび分配プロモーション合計,品目プロモーションおよび分配プロモーション合計,通貨(16、2),false,true,false,false,false,false
-000000000000000AAA,CartItemChangeEvent.TotalWeight,TotalWeight,CartItemChangeEvent,,TotalWeight,カート品目の総重量,カート品目の総重量,数値(16、2),false,true,false,false,false,false
-000000000000000AAA,CartItemChangeEvent.Type,Type,CartItemChangeEvent,,Type,種別,種別,選択リスト,false,true,false,false,false,false
-000000000000000AAA,CartItemChangeEvent.UnitAdjustedPrice,UnitAdjustedPrice,CartItemChangeEvent,,UnitAdjustedPrice,単位調整後の金額,単位調整後の金額,通貨(16、2),false,true,false,false,false,false
-000000000000000AAA,CartItemChangeEvent.UnitAdjustedPriceWithItemAdj,UnitAdjustedPriceWithItemAdj,CartItemChangeEvent,,UnitAdjustedPriceWithItemAdj,このカート品目の階層および項目レベルの割引の両方を含む単価,このカート品目の階層および項目レベルの割引の両方を含む単価,通貨(16、2),false,true,false,false,false,false
-000000000000000AAA,CartItemChangeEvent.UnitAdjustmentAmount,UnitAdjustmentAmount,CartItemChangeEvent,,UnitAdjustmentAmount,単位調整金額,単位調整金額,通貨(16、2),false,true,false,false,false,false
-000000000000000AAA,CartItemChangeEvent.UnitItemAdjustmentAmount,UnitItemAdjustmentAmount,CartItemChangeEvent,,UnitItemAdjustmentAmount,このカート品目の単位レベルでの項目レベルの割引,このカート品目の単位レベルでの項目レベルの割引,通貨(16、2),false,true,false,false,false,false
-000000000000000AAA,CartItemChangeEvent.UnitPriceAfterAdjustments,UnitPriceAfterAdjustments,CartItemChangeEvent,,UnitPriceAfterAdjustments,調整後の単価,調整後の単価,通貨(16、2),false,true,false,false,false,false
-000000000000000AAA,CartItemChangeEvent.WeightUnit,WeightUnit,CartItemChangeEvent,,WeightUnit,重量単位,重量単位,選択リスト,false,true,false,false,false,false
 000000000000000AAA,CartItemPriceAdjustment.AdjustmentAmountScope,AdjustmentAmountScope,CartItemPriceAdjustment,,AdjustmentAmountScope,調整金額範囲,調整金額範囲,選択リスト,false,true,false,true,true,true
 000000000000000AAA,CartItemPriceAdjustment.AdjustmentBasisReference,AdjustmentBasisReferenceId,CartItemPriceAdjustment,,AdjustmentBasisReference,調整 (クーポン) の根拠,調整 (クーポン) の根拠,参照関係(クーポン),false,true,false,true,true,true
 000000000000000AAA,CartItemPriceAdjustment.AdjustmentSource,AdjustmentSource,CartItemPriceAdjustment,,AdjustmentSource,調整取得元,調整取得元,選択リスト,false,false,false,true,true,true
@@ -7599,6 +7543,15 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,CartRelatedItem.RelationshipType,RelationshipType,CartRelatedItem,,RelationshipType,親と子のリレーション種別,親と子のリレーション種別,選択リスト,false,false,false,true,true,true
 000000000000000AAA,CartRelatedItem.SystemModstamp,SystemModstamp,CartRelatedItem,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
 000000000000000AAA,CartRelatedItem.UserRecordAccess,UserRecordAccessId,CartRelatedItem,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true
+000000000000000AAA,CartRelatedItemChangeEvent.ChangeEventHeader,ChangeEventHeader,CartRelatedItemChangeEvent,,ChangeEventHeader,変更イベントヘッダー,変更イベントヘッダー,複合値,false,false,false,false,false,false
+000000000000000AAA,CartRelatedItemChangeEvent.ChildCartItem,ChildCartItemId,CartRelatedItemChangeEvent,,ChildCartItem,カート項目,カート項目,参照関係(カート項目),false,true,false,false,false,false
+000000000000000AAA,CartRelatedItemChangeEvent.CreatedBy,CreatedById,CartRelatedItemChangeEvent,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,true,false,false,false,false
+000000000000000AAA,CartRelatedItemChangeEvent.CreatedDate,CreatedDate,CartRelatedItemChangeEvent,,CreatedDate,作成日,作成日,日付/時間,false,true,false,false,false,false
+000000000000000AAA,CartRelatedItemChangeEvent.LastModifiedBy,LastModifiedById,CartRelatedItemChangeEvent,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,true,false,false,false,false
+000000000000000AAA,CartRelatedItemChangeEvent.LastModifiedDate,LastModifiedDate,CartRelatedItemChangeEvent,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,true,false,false,false,false
+000000000000000AAA,CartRelatedItemChangeEvent.Name,Name,CartRelatedItemChangeEvent,,Name,名前,名前,テキスト(255),false,true,false,false,false,false
+000000000000000AAA,CartRelatedItemChangeEvent.ParentCartItem,ParentCartItemId,CartRelatedItemChangeEvent,,ParentCartItem,カート項目,カート項目,参照関係(カート項目),false,true,false,false,false,false
+000000000000000AAA,CartRelatedItemChangeEvent.RelationshipType,RelationshipType,CartRelatedItemChangeEvent,,RelationshipType,親と子のリレーション種別,親と子のリレーション種別,選択リスト,false,true,false,false,false,false
 000000000000000AAA,CartTax.AdjustmentTargetType,AdjustmentTargetType,CartTax,,AdjustmentTargetType,調整の対象種別,調整の対象種別,選択リスト,false,true,false,true,true,true
 000000000000000AAA,CartTax.Amount,Amount,CartTax,,Amount,金額,金額,通貨(16、2),false,false,false,true,false,true
 000000000000000AAA,CartTax.Cart,CartId,CartTax,,Cart,カート,カート,参照関係(カート),false,true,true,true,true,true
@@ -29412,6 +29365,38 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,MarketSegmentActivationChangeEvent.StartDate,StartDate,MarketSegmentActivationChangeEvent,,StartDate,有効化処理の開始日,有効化処理の開始日,日付/時間,false,true,false,false,false,false
 000000000000000AAA,MarketSegmentActivationChangeEvent.StaticAttributes,StaticAttributes,MarketSegmentActivationChangeEvent,,StaticAttributes,静的属性,静的属性,ロングテキストエリア(131072),false,true,false,false,false,false
 000000000000000AAA,MarketSegmentActivationChangeEvent.WaterfallSelectedChildSegmentsConfig,WaterfallSelectedChildSegmentsConfig,MarketSegmentActivationChangeEvent,,WaterfallSelectedChildSegmentsConfig,ウォーターフォールの選択された子セグメントの設定,ウォーターフォールの選択された子セグメントの設定,ロングテキストエリア(131072),false,true,false,false,false,false
+000000000000000AAA,MarketSegmentActivationFeed.BestComment,BestCommentId,MarketSegmentActivationFeed,,BestComment,最良のコメント,最良のコメント,参照関係(フィードコメント),false,true,false,true,true,true
+000000000000000AAA,MarketSegmentActivationFeed.Body,Body,MarketSegmentActivationFeed,,Body,内容,内容,ロングテキストエリア(10000),false,true,false,false,false,true
+000000000000000AAA,MarketSegmentActivationFeed.CommentCount,CommentCount,MarketSegmentActivationFeed,,CommentCount,コメント数,コメント数,数値(9、0),false,false,false,true,true,true
+000000000000000AAA,MarketSegmentActivationFeed.CreatedBy,CreatedById,MarketSegmentActivationFeed,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,MarketSegmentActivationFeed.CreatedDate,CreatedDate,MarketSegmentActivationFeed,,CreatedDate,作成日,作成日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,MarketSegmentActivationFeed.Id,Id,MarketSegmentActivationFeed,,Id,フィード項目 ID,フィード項目 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,MarketSegmentActivationFeed.InsertedBy,InsertedById,MarketSegmentActivationFeed,,InsertedBy,挿入者,挿入者,参照関係(ユーザー),false,true,false,false,true,true
+000000000000000AAA,MarketSegmentActivationFeed.IsDeleted,IsDeleted,MarketSegmentActivationFeed,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,MarketSegmentActivationFeed.IsRichText,IsRichText,MarketSegmentActivationFeed,,IsRichText,リッチテキスト,リッチテキスト,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,MarketSegmentActivationFeed.LastModifiedDate,LastModifiedDate,MarketSegmentActivationFeed,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
+000000000000000AAA,MarketSegmentActivationFeed.LikeCount,LikeCount,MarketSegmentActivationFeed,,LikeCount,いいね! の数,いいね! の数,数値(9、0),false,false,false,true,true,true
+000000000000000AAA,MarketSegmentActivationFeed.LinkUrl,LinkUrl,MarketSegmentActivationFeed,,LinkUrl,リンク URL,リンク URL,URL(1000),false,true,false,false,false,true
+000000000000000AAA,MarketSegmentActivationFeed.Parent,ParentId,MarketSegmentActivationFeed,,Parent,親,親,参照関係(有効化),false,false,true,true,true,true
+000000000000000AAA,MarketSegmentActivationFeed.RelatedRecord,RelatedRecordId,MarketSegmentActivationFeed,,RelatedRecord,関連レコード,関連レコード,"参照関係(コンテンツバージョン,キャンバスフィード項目)",false,true,false,false,true,true
+000000000000000AAA,MarketSegmentActivationFeed.SystemModstamp,SystemModstamp,MarketSegmentActivationFeed,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
+000000000000000AAA,MarketSegmentActivationFeed.Title,Title,MarketSegmentActivationFeed,,Title,タイトル,タイトル,テキスト(255),false,true,false,false,true,true
+000000000000000AAA,MarketSegmentActivationFeed.Type,Type,MarketSegmentActivationFeed,,Type,フィード項目種別,フィード項目種別,選択リスト,false,true,false,true,true,true
+000000000000000AAA,MarketSegmentActivationHistory.CreatedBy,CreatedById,MarketSegmentActivationHistory,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
+000000000000000AAA,MarketSegmentActivationHistory.CreatedDate,CreatedDate,MarketSegmentActivationHistory,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
+000000000000000AAA,MarketSegmentActivationHistory.DataType,DataType,MarketSegmentActivationHistory,,DataType,データ型,データ型,選択リスト,false,true,false,true,true,true
+000000000000000AAA,MarketSegmentActivationHistory.Field,Field,MarketSegmentActivationHistory,,Field,変更された項目,変更された項目,"選択リスト(Custom Field Definitions,カスタム項目データ列)",false,false,true,true,true,true
+000000000000000AAA,MarketSegmentActivationHistory.Id,Id,MarketSegmentActivationHistory,,Id,有効化履歴 ID,有効化履歴 ID,参照関係(),false,false,true,true,true,true
+000000000000000AAA,MarketSegmentActivationHistory.IsDeleted,IsDeleted,MarketSegmentActivationHistory,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
+000000000000000AAA,MarketSegmentActivationHistory.MarketSegmentActivation,MarketSegmentActivationId,MarketSegmentActivationHistory,,MarketSegmentActivation,有効化,有効化,参照関係(有効化),false,false,true,true,true,true
+000000000000000AAA,MarketSegmentActivationHistory.NewvalDate,NewvalDate,MarketSegmentActivationHistory,,NewvalDate,新規の日付,新規の日付,日付/時間,false,true,false,true,false,true
+000000000000000AAA,MarketSegmentActivationHistory.NewvalFirstName,NewvalFirstName,MarketSegmentActivationHistory,,NewvalFirstName,新規の名,新規の名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,MarketSegmentActivationHistory.NewvalLastName,NewvalLastName,MarketSegmentActivationHistory,,NewvalLastName,新規の姓,新規の姓,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,MarketSegmentActivationHistory.NewValue,NewValue,MarketSegmentActivationHistory,,NewValue,新しい値,新しい値,参照関係,false,true,false,false,false,true
+000000000000000AAA,MarketSegmentActivationHistory.OldvalDate,OldvalDate,MarketSegmentActivationHistory,,OldvalDate,元の日付,元の日付,日付/時間,false,true,false,true,false,true
+000000000000000AAA,MarketSegmentActivationHistory.OldvalFirstName,OldvalFirstName,MarketSegmentActivationHistory,,OldvalFirstName,元の名,元の名,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,MarketSegmentActivationHistory.OldvalLastName,OldvalLastName,MarketSegmentActivationHistory,,OldvalLastName,元の姓,元の姓,テキスト(255),false,true,false,true,true,true
+000000000000000AAA,MarketSegmentActivationHistory.OldValue,OldValue,MarketSegmentActivationHistory,,OldValue,元の値,元の値,参照関係,false,true,false,false,false,true
 000000000000000AAA,MarketSegmentChangeEvent.AdditionalMetadataInfo,AdditionalMetadataInfo,MarketSegmentChangeEvent,,AdditionalMetadataInfo,追加メタデータ情報,追加メタデータ情報,ロングテキストエリア(32000),false,true,false,false,false,false
 000000000000000AAA,MarketSegmentChangeEvent.ChangeEventHeader,ChangeEventHeader,MarketSegmentChangeEvent,,ChangeEventHeader,変更イベントヘッダー,変更イベントヘッダー,複合値,false,false,false,false,false,false
 000000000000000AAA,MarketSegmentChangeEvent.CreatedBy,CreatedById,MarketSegmentChangeEvent,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,true,false,false,false,false
@@ -32190,33 +32175,3 @@ Id,DurableId,QualifiedApiName,EntityDefinitionId,NamespacePrefix,DeveloperName,M
 000000000000000AAA,OperatingHoursFeed.SystemModstamp,SystemModstamp,OperatingHoursFeed,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
 000000000000000AAA,OperatingHoursFeed.Title,Title,OperatingHoursFeed,,Title,タイトル,タイトル,テキスト(255),false,true,false,false,true,true
 000000000000000AAA,OperatingHoursFeed.Type,Type,OperatingHoursFeed,,Type,フィード項目種別,フィード項目種別,選択リスト,false,true,false,true,true,true
-000000000000000AAA,OperatingHoursHistory.CreatedBy,CreatedById,OperatingHoursHistory,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
-000000000000000AAA,OperatingHoursHistory.CreatedDate,CreatedDate,OperatingHoursHistory,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
-000000000000000AAA,OperatingHoursHistory.DataType,DataType,OperatingHoursHistory,,DataType,データ型,データ型,選択リスト,false,true,false,true,true,true
-000000000000000AAA,OperatingHoursHistory.Field,Field,OperatingHoursHistory,,Field,変更された項目,変更された項目,"選択リスト(Custom Field Definitions,カスタム項目データ列)",false,false,true,true,true,true
-000000000000000AAA,OperatingHoursHistory.Id,Id,OperatingHoursHistory,,Id,業務時間履歴 ID,業務時間履歴 ID,参照関係(),false,false,true,true,true,true
-000000000000000AAA,OperatingHoursHistory.IsDeleted,IsDeleted,OperatingHoursHistory,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
-000000000000000AAA,OperatingHoursHistory.NewvalDate,NewvalDate,OperatingHoursHistory,,NewvalDate,新規の日付,新規の日付,日付/時間,false,true,false,true,false,true
-000000000000000AAA,OperatingHoursHistory.NewvalFirstName,NewvalFirstName,OperatingHoursHistory,,NewvalFirstName,新規の名,新規の名,テキスト(255),false,true,false,true,true,true
-000000000000000AAA,OperatingHoursHistory.NewvalLastName,NewvalLastName,OperatingHoursHistory,,NewvalLastName,新規の姓,新規の姓,テキスト(255),false,true,false,true,true,true
-000000000000000AAA,OperatingHoursHistory.NewValue,NewValue,OperatingHoursHistory,,NewValue,新しい値,新しい値,参照関係,false,true,false,false,false,true
-000000000000000AAA,OperatingHoursHistory.OldvalDate,OldvalDate,OperatingHoursHistory,,OldvalDate,元の日付,元の日付,日付/時間,false,true,false,true,false,true
-000000000000000AAA,OperatingHoursHistory.OldvalFirstName,OldvalFirstName,OperatingHoursHistory,,OldvalFirstName,元の名,元の名,テキスト(255),false,true,false,true,true,true
-000000000000000AAA,OperatingHoursHistory.OldvalLastName,OldvalLastName,OperatingHoursHistory,,OldvalLastName,元の姓,元の姓,テキスト(255),false,true,false,true,true,true
-000000000000000AAA,OperatingHoursHistory.OldValue,OldValue,OperatingHoursHistory,,OldValue,元の値,元の値,参照関係,false,true,false,false,false,true
-000000000000000AAA,OperatingHoursHistory.OperatingHours,OperatingHoursId,OperatingHoursHistory,,OperatingHours,営業時間,営業時間,参照関係(営業時間),false,false,true,true,true,true
-000000000000000AAA,OperatingHoursHoliday.CreatedBy,CreatedById,OperatingHoursHoliday,,CreatedBy,作成者,作成者,参照関係(ユーザー),false,false,true,true,true,true
-000000000000000AAA,OperatingHoursHoliday.CreatedDate,CreatedDate,OperatingHoursHoliday,,CreatedDate,作成日,作成日,日付/時間,false,false,true,true,false,true
-000000000000000AAA,OperatingHoursHoliday.DateAndTime,DateAndTime,OperatingHoursHoliday,,DateAndTime,日時,日時,テキスト(255),false,true,false,true,true,true
-000000000000000AAA,OperatingHoursHoliday.Holiday,HolidayId,OperatingHoursHoliday,,Holiday,休日,休日,参照関係(休日),false,false,false,true,true,true
-000000000000000AAA,OperatingHoursHoliday.Id,Id,OperatingHoursHoliday,,Id,営業時間 ID,営業時間 ID,参照関係(),false,false,true,true,true,true
-000000000000000AAA,OperatingHoursHoliday.IsDeleted,IsDeleted,OperatingHoursHoliday,,IsDeleted,削除,削除,チェックボックス,false,false,false,true,true,true
-000000000000000AAA,OperatingHoursHoliday.LastModifiedBy,LastModifiedById,OperatingHoursHoliday,,LastModifiedBy,最終更新者,最終更新者,参照関係(ユーザー),false,false,false,true,true,true
-000000000000000AAA,OperatingHoursHoliday.LastModifiedDate,LastModifiedDate,OperatingHoursHoliday,,LastModifiedDate,最終更新日,最終更新日,日付/時間,false,false,false,true,false,true
-000000000000000AAA,OperatingHoursHoliday.LastReferencedDate,LastReferencedDate,OperatingHoursHoliday,,LastReferencedDate,最終参照日,最終参照日,日付/時間,false,true,false,true,false,true
-000000000000000AAA,OperatingHoursHoliday.LastViewedDate,LastViewedDate,OperatingHoursHoliday,,LastViewedDate,最終閲覧日,最終閲覧日,日付/時間,false,true,false,true,false,true
-000000000000000AAA,OperatingHoursHoliday.Name,OperatingHoursHolidayNumber,OperatingHoursHoliday,,Name,業務時間休日番号,業務時間休日番号,自動採番,false,false,true,true,false,true
-000000000000000AAA,OperatingHoursHoliday.OperatingHours,OperatingHoursId,OperatingHoursHoliday,,OperatingHours,業務時間,業務時間,主従関係(営業時間),false,false,true,true,true,true
-000000000000000AAA,OperatingHoursHoliday.RecordVisibility,RecordVisibilityId,OperatingHoursHoliday,,RecordVisibility,レコードの表示,レコードの表示,参照関係(レコードの表示),false,true,false,true,true,true
-000000000000000AAA,OperatingHoursHoliday.SystemModstamp,SystemModstamp,OperatingHoursHoliday,,SystemModstamp,System Modstamp,System Modstamp,日付/時間,false,false,true,true,false,true
-000000000000000AAA,OperatingHoursHoliday.UserRecordAccess,UserRecordAccessId,OperatingHoursHoliday,,UserRecordAccess,オブジェクトアクセスレベル,オブジェクトアクセスレベル,参照関係(ユーザーレコードアクセス),false,true,false,true,true,true
